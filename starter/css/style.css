@@ -1,0 +1,19 @@
+img {
+  padding: 1em;
+}
+
+.right {
+  float: right;     
+}
+
+.left {
+  float: left;     
+}
+
+.clearfix:after { 
+   content: "."; 
+   visibility: hidden; 
+   display: block; 
+   height: 0; 
+   clear: both;
+}
